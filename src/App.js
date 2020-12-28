@@ -17,6 +17,9 @@ function App() {
      
     <div className="App">
     <Menu /> 
+    <Home />
+    <Product />
+    <Lienhe />
     <Router>
         <Route path="/" exact  component = {home} />
          <Route path="/lienhe" component = {Lienhe1} />
